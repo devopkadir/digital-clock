@@ -1,0 +1,46 @@
+body {
+  background-image: url(1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(5px);
+  background-color: hsla(0, 4%, 91%, 0.103);
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  #clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #clock {
+    font-family: monospace;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 4%, 91%, 0.103);
+    width: 100%;
+  }
+}
